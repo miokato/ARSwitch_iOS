@@ -14,6 +14,8 @@
 		30338CB02348148D0016417B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30338CAF2348148D0016417B /* Assets.xcassets */; };
 		30338CB32348148D0016417B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30338CB12348148D0016417B /* LaunchScreen.storyboard */; };
 		30338CBE2348148E0016417B /* ARWithOSCStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30338CBD2348148E0016417B /* ARWithOSCStudyTests.swift */; };
+		352A8310FB75818067FEA8F3 /* Pods_ARWithOSCStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992754D7E79EC1B74D874CDD /* Pods_ARWithOSCStudy.framework */; };
+		B63A5EC47E4459A4055198F1 /* Pods_ARWithOSCStudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDE184915A6A6CAB8B7439F /* Pods_ARWithOSCStudyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21A391F7E800FA0EF95A3963 /* Pods-ARWithOSCStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARWithOSCStudy.release.xcconfig"; path = "Target Support Files/Pods-ARWithOSCStudy/Pods-ARWithOSCStudy.release.xcconfig"; sourceTree = "<group>"; };
+		2BDE184915A6A6CAB8B7439F /* Pods_ARWithOSCStudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARWithOSCStudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30338CA32348148B0016417B /* ARWithOSCStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARWithOSCStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30338CA62348148B0016417B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30338CA82348148B0016417B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		30338CB92348148E0016417B /* ARWithOSCStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARWithOSCStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30338CBD2348148E0016417B /* ARWithOSCStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWithOSCStudyTests.swift; sourceTree = "<group>"; };
 		30338CBF2348148E0016417B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361200153E26102878F94ED0 /* Pods-ARWithOSCStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARWithOSCStudy.debug.xcconfig"; path = "Target Support Files/Pods-ARWithOSCStudy/Pods-ARWithOSCStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		458A9364B4A7542C7342748E /* Pods-ARWithOSCStudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARWithOSCStudyTests.debug.xcconfig"; path = "Target Support Files/Pods-ARWithOSCStudyTests/Pods-ARWithOSCStudyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		992754D7E79EC1B74D874CDD /* Pods_ARWithOSCStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARWithOSCStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504298F2B54B925388A7ABD /* Pods-ARWithOSCStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARWithOSCStudyTests.release.xcconfig"; path = "Target Support Files/Pods-ARWithOSCStudyTests/Pods-ARWithOSCStudyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352A8310FB75818067FEA8F3 /* Pods_ARWithOSCStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63A5EC47E4459A4055198F1 /* Pods_ARWithOSCStudyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5FD8E54742B03A6EFC669F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992754D7E79EC1B74D874CDD /* Pods_ARWithOSCStudy.framework */,
+				2BDE184915A6A6CAB8B7439F /* Pods_ARWithOSCStudyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		30338C9A2348148B0016417B = {
 			isa = PBXGroup;
 			children = (
 				30338CA52348148B0016417B /* ARWithOSCStudy */,
 				30338CBC2348148E0016417B /* ARWithOSCStudyTests */,
 				30338CA42348148B0016417B /* Products */,
+				F246E6B66E41A01BB1F63FD0 /* Pods */,
+				2A5FD8E54742B03A6EFC669F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,18 @@
 			path = ARWithOSCStudyTests;
 			sourceTree = "<group>";
 		};
+		F246E6B66E41A01BB1F63FD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361200153E26102878F94ED0 /* Pods-ARWithOSCStudy.debug.xcconfig */,
+				21A391F7E800FA0EF95A3963 /* Pods-ARWithOSCStudy.release.xcconfig */,
+				458A9364B4A7542C7342748E /* Pods-ARWithOSCStudyTests.debug.xcconfig */,
+				B504298F2B54B925388A7ABD /* Pods-ARWithOSCStudyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30338CC22348148E0016417B /* Build configuration list for PBXNativeTarget "ARWithOSCStudy" */;
 			buildPhases = (
+				DC5CAFE92567DD4D7638A716 /* [CP] Check Pods Manifest.lock */,
 				30338C9F2348148B0016417B /* Sources */,
 				30338CA02348148B0016417B /* Frameworks */,
 				30338CA12348148B0016417B /* Resources */,
+				E5D91903A7252CCBE3C0D076 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30338CC52348148E0016417B /* Build configuration list for PBXNativeTarget "ARWithOSCStudyTests" */;
 			buildPhases = (
+				BE823EDD35B6B64BA0795FD5 /* [CP] Check Pods Manifest.lock */,
 				30338CB52348148E0016417B /* Sources */,
 				30338CB62348148E0016417B /* Frameworks */,
 				30338CB72348148E0016417B /* Resources */,
@@ -195,6 +231,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE823EDD35B6B64BA0795FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARWithOSCStudyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC5CAFE92567DD4D7638A716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARWithOSCStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D91903A7252CCBE3C0D076 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARWithOSCStudy/Pods-ARWithOSCStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARWithOSCStudy/Pods-ARWithOSCStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARWithOSCStudy/Pods-ARWithOSCStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30338C9F2348148B0016417B /* Sources */ = {
@@ -360,6 +460,7 @@
 		};
 		30338CC32348148E0016417B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361200153E26102878F94ED0 /* Pods-ARWithOSCStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +479,7 @@
 		};
 		30338CC42348148E0016417B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A391F7E800FA0EF95A3963 /* Pods-ARWithOSCStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +498,7 @@
 		};
 		30338CC62348148E0016417B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458A9364B4A7542C7342748E /* Pods-ARWithOSCStudyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +521,7 @@
 		};
 		30338CC72348148E0016417B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B504298F2B54B925388A7ABD /* Pods-ARWithOSCStudyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
